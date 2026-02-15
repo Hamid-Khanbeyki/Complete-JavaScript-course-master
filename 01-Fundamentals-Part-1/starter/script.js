@@ -21,7 +21,7 @@ let job2 = "teacher";
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
-*/
+
 
 true;
 let javaScriptIsFun = false;
@@ -39,3 +39,14 @@ console.log(typeof null);
 let firstName;
 console.log(firstName);
 console.log(typeof firstName);
+*/
+
+let age = 21;
+age = 22;
+console.log(age);
+
+const birthYear = 2005;
+console.log(birthYear);
+
+var fullName = "Khanbeyki";
+console.log(fullName);
