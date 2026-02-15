@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
 console.log("Reza");
@@ -21,3 +21,21 @@ let job2 = "teacher";
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
+*/
+
+true;
+let javaScriptIsFun = false;
+let car;
+console.log(typeof false);
+console.log(typeof 20);
+console.log(typeof car);
+console.log(typeof 50.0);
+
+javaScriptIsFun = "Yes!";
+console.log(javaScriptIsFun);
+
+console.log(typeof null);
+
+let firstName;
+console.log(firstName);
+console.log(typeof firstName);
