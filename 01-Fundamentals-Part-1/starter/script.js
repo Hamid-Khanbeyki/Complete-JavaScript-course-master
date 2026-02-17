@@ -39,7 +39,6 @@ console.log(typeof null);
 let firstName;
 console.log(firstName);
 console.log(typeof firstName);
-*/
 
 let age = 21;
 age = 22;
@@ -50,3 +49,25 @@ console.log(birthYear);
 
 var fullName = "Khanbeyki";
 console.log(fullName);
+*/
+
+const now = 2026;
+const ageHamid = now - 1996;
+const ageSarah = now - 2000;
+console.log(ageHamid, ageSarah);
+
+console.log(ageHamid * 2, ageSarah / 2, ageSarah ** 2);
+
+const firstName = "Hamid";
+const lastName = "Khanbeyki";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5;
+x += 10; // x = x + 10
+x *= 2; // x = x * 2
+x++; // x = x + 1
+x--; // x = x -1
+console.log(x);
+
+console.log(ageHamid > ageSarah);
+console.log(ageSarah >= 18);
