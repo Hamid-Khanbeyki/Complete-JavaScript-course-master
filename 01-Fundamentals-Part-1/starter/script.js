@@ -71,3 +71,14 @@ console.log(x);
 
 console.log(ageHamid > ageSarah);
 console.log(ageSarah >= 18);
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const HeightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / HeightJohn ** 2;
+
+console.log(BMIMark, BMIJohn);
+console.log(BMIMark > BMIJohn);
