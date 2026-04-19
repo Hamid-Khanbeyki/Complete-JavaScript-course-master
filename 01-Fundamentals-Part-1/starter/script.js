@@ -51,6 +51,8 @@ var fullName = "Khanbeyki";
 console.log(fullName);
 */
 
+/*
+
 const now = 2026;
 const ageHamid = now - 1996;
 const ageSarah = now - 2000;
@@ -82,3 +84,35 @@ const BMIJohn = massJohn / HeightJohn ** 2;
 
 console.log(BMIMark, BMIJohn);
 console.log(BMIMark > BMIJohn);
+
+*/
+
+const firstName = "Hamid";
+const job = "student";
+const birthYear = 2005;
+const year = 2037;
+
+const hamid =
+  "I'm " +
+  firstName +
+  ", a " +
+  (year - birthYear) +
+  " years old " +
+  job +
+  "!" +
+  "I'm Hamid agian";
+
+const newHamid = `Hi I'm ${firstName} an ${job}`;
+
+`this is Backticks`;
+
+console.log(hamid);
+console.log(newHamid);
+console.log(
+  "A Text with \n\
+  multiple \n\
+  lines",
+);
+console.log(`Hi I'm Hamid
+an Software Programmer
+with an HP laptop  `);
