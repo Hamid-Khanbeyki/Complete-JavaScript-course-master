@@ -85,7 +85,6 @@ const BMIJohn = massJohn / HeightJohn ** 2;
 console.log(BMIMark, BMIJohn);
 console.log(BMIMark > BMIJohn);
 
-*/
 
 const firstName = "Hamid";
 const job = "student";
@@ -93,14 +92,14 @@ const birthYear = 2005;
 const year = 2037;
 
 const hamid =
-  "I'm " +
-  firstName +
-  ", a " +
-  (year - birthYear) +
-  " years old " +
-  job +
-  "!" +
-  "I'm Hamid agian";
+"I'm " +
+firstName +
+", a " +
+(year - birthYear) +
+" years old " +
+job +
+"!" +
+"I'm Hamid agian";
 
 const newHamid = `Hi I'm ${firstName} an ${job}`;
 
@@ -116,3 +115,24 @@ console.log(
 console.log(`Hi I'm Hamid
 an Software Programmer
 with an HP laptop  `);
+*/
+
+const age = 18;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2005;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
