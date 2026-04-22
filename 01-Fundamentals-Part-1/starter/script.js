@@ -152,7 +152,6 @@ if (BMIMark > BMIJohn) {
 } else {
   console.log(`John's BMI ${BMIJohn} is higher than Mark's BMI ${BMIMark}!`);
 }
-*/
 
 // type conversion
 const inputYear = "1991";
@@ -181,3 +180,24 @@ console.log(n);
 let b = "10" - "4" - "3" - 2 + "5"; // 10 - 4 = 6   6 - 3 = 3  3 - 2 = 1   1 + "5" = 15
 console.log(b);
 console.log(typeof b);
+*/
+
+// truthy and falsy values
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+
+const money = 120;
+if (money) {
+  console.log(`Don't spend $${money} all!`);
+} else {
+  console.log("You should get a job!");
+}
+
+let height;
+if (height) {
+  console.log("Your height is cm !");
+} else {
+  console.log("Your height is undefind!");
+}
