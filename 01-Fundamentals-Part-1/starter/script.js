@@ -180,7 +180,6 @@ console.log(n);
 let b = "10" - "4" - "3" - 2 + "5"; // 10 - 4 = 6   6 - 3 = 3  3 - 2 = 1   1 + "5" = 15
 console.log(b);
 console.log(typeof b);
-*/
 
 // truthy and falsy values
 console.log(Boolean(0));
@@ -201,3 +200,25 @@ if (height) {
 } else {
   console.log("Your height is undefind!");
 }
+*/
+
+// equality operators == vs ===
+const age = 18;
+if (age === "18") console.log("You just became adult :D (strict) ");
+if (age == 18) console.log("You just became adult :D (loose) ");
+
+const favourite = Number(prompt("what's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 18) {
+  console.log(`Cool! ${favourite} is an amzaing number!`);
+} else if (favourite === 7) {
+  console.log(`${favourite} is also a cool number!`);
+} else if (favourite === 9) {
+  console.log(`${favourite} is also a cool number!`);
+} else {
+  console.log("Number is not 23 or 7 or 9");
+}
+
+if (favourite !== 18) console.log("Why not 18?");
