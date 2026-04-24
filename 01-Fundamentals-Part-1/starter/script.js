@@ -200,7 +200,6 @@ if (height) {
 } else {
   console.log("Your height is undefind!");
 }
-*/
 
 // equality operators == vs ===
 const age = 18;
@@ -218,7 +217,23 @@ if (favourite === 18) {
 } else if (favourite === 9) {
   console.log(`${favourite} is also a cool number!`);
 } else {
-  console.log("Number is not 23 or 7 or 9");
+  console.log("Number is not 18 or 7 or 9");
 }
 
 if (favourite !== 18) console.log("Why not 18?");
+*/
+
+// logical operators
+const hasDriversLicense = false;
+const hasGoodVision = true;
+const isTired = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("you able to drive");
+} else {
+  console.log("you can't drive");
+}
