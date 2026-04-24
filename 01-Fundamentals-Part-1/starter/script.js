@@ -221,7 +221,6 @@ if (favourite === 18) {
 }
 
 if (favourite !== 18) console.log("Why not 18?");
-*/
 
 // logical operators
 const hasDriversLicense = false;
@@ -236,4 +235,23 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
   console.log("you able to drive");
 } else {
   console.log("you can't drive");
+}
+*/
+const scoreDolphins = (97 + 112 + 100) / 3;
+const scoreKoalas = (109 + 95 + 95) / 3;
+
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win the trophy 🏆");
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log("Koalas win the trophy 🏆");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log("Both win the trophy!");
+} else {
+  console.log("No one wins the trophy 😭");
 }
