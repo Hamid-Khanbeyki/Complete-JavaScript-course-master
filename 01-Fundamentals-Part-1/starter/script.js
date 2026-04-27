@@ -293,24 +293,30 @@ switch (day) {
         } else {
           console.log("Not a valid day!");
       }
-      */
+      
+      const age = 18;
+      
+      // age >= 18
+      //   ? console.log("I like to drink wine 🍷")
+      //   : console.log("I like to dring water 💧");
+      
+      const drink = age >= 18 ? "I like you" : "I hate you";
+      console.log(drink);
+      
+      let drink2;
+      if (age >= 18) {
+        drink2 = "I like you";
+      } else {
+        drink2 = "I hate you";
+    }
+    
+    console.log(drink2);
+    
+    console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+*/
 
-const age = 18;
-
-// age >= 18
-//   ? console.log("I like to drink wine 🍷")
-//   : console.log("I like to dring water 💧");
-
-const drink = age >= 18 ? "I like you" : "I hate you";
-console.log(drink);
-
-let drink2;
-if (age >= 18) {
-  drink2 = "I like you";
-} else {
-  drink2 = "I hate you";
-}
-
-console.log(drink2);
-
-console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+const bill = 40;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}`,
+);
