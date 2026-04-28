@@ -313,10 +313,35 @@ switch (day) {
     console.log(drink2);
     
     console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+    
+    const bill = 40;
+    const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+    console.log(
+      `The bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}`,
+    );
 */
 
-const bill = 40;
-const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
-console.log(
-  `The bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}`,
-);
+// function calcAge1(birthYear) {
+//   const age = 2037 - birthYear;
+//   return age;
+// }
+
+// console.log(calcAge1(2005));
+
+// function calcAge1(birthYear) {
+//   return 2037 - birthYear;
+// }
+
+// console.log(calcAge1(2007));
+
+// const calcAge2 = function (birthYear) {
+//   return 2037 - birthYear;
+// };
+// console.log(calcAge2(2000));
+
+function fruitProssesor(apples, oranges) {
+  const juice = `a juice with ${apples} apples and ${oranges} oranges.`;
+  return juice;
+}
+
+console.log(fruitProssesor(2, 3));
