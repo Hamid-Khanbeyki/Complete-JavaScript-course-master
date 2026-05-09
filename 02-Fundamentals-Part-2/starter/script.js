@@ -134,7 +134,6 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 checkWinner(scoreDolphins, scoreKoalas);
-*/
 
 const friend1 = "Michael";
 const friend2 = "Steven";
@@ -181,3 +180,31 @@ const ages = [
 ];
 
 console.log(ages);
+*/
+
+const friends = ["Michael", "Steven", "Peter"];
+console.log(friends);
+
+// Add elements
+friends.push("Jay"); // Add to last
+console.log(friends);
+
+friends.unshift("John"); // Add to first
+console.log(friends);
+
+// Remove elements
+friends.pop(); // Remove last
+console.log(friends);
+
+friends.shift(); // Remove first
+console.log(friends);
+
+console.log(friends.indexOf("Steven")); // Show index of
+console.log(friends.includes("Steven")); // Show with ture or false
+
+console.log(friends.indexOf("Bob"));
+console.log(friends.includes("Bob"));
+
+if (friends.includes("Peter")) {
+  console.log("You have a friend called Peter");
+}
