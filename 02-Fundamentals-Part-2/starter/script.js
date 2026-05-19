@@ -208,14 +208,13 @@ console.log(friends.includes("Bob"));
 if (friends.includes("Peter")) {
   console.log("You have a friend called Peter");
 }
-*/
 
 const calcTip = function (bill) {
   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 };
 
 // const calcTip = (bill) =>
-//   bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+  //   bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
 const bills = [125, 555, 44];
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
@@ -223,3 +222,20 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(bills, tips, totals);
+*/
+// Objects
+const jonasArray = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+];
+
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+};
