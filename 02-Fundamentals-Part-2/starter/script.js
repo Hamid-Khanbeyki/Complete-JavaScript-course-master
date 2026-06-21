@@ -311,13 +311,12 @@ console.log(jonas.age);
 console.log(jonas.getSummery());
 // Challenge
 // Jonas is a 46-years old teacher, and he has a driver's license
-*/
 
 const mark = {
   fullName: "Mark Miller",
   mass: 78,
   height: 1.69,
-
+  
   calcBMI: function () {
     this.bmi = this.mass / this.height ** 2;
     return this.bmi;
@@ -328,7 +327,7 @@ const john = {
   fullName: "John Smith",
   mass: 92,
   height: 1.95,
-
+  
   calcBMI: function () {
     this.bmi = this.mass / this.height ** 2;
     return this.bmi;
@@ -348,4 +347,21 @@ if (mark.bmi > john.bmi) {
   console.log(
     `${john.fullName}'s BMI ${john.bmi} is higher than ${mark.fullName}'s BMI ${mark.bmi}`,
   );
+}
+*/
+// The for loop
+
+// console.log("Lifting the weights repetition 1 🏋️‍♂️");
+// console.log("Lifting the weights repetition 2 🏋️‍♂️");
+// console.log("Lifting the weights repetition 3 🏋️‍♂️");
+// console.log("Lifting the weights repetition 4 🏋️‍♂️");
+// console.log("Lifting the weights repetition 5 🏋️‍♂️");
+// console.log("Lifting the weights repetition 6 🏋️‍♂️");
+// console.log("Lifting the weights repetition 7 🏋️‍♂️");
+// console.log("Lifting the weights repetition 8 🏋️‍♂️");
+// console.log("Lifting the weights repetition 9 🏋️‍♂️");
+// console.log("Lifting the weights repetition 10 🏋️‍♂️");
+
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting the weights repetition ${rep} 🏋️‍♂️`);
 }
