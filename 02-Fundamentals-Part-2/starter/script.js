@@ -348,7 +348,6 @@ if (mark.bmi > john.bmi) {
     `${john.fullName}'s BMI ${john.bmi} is higher than ${mark.fullName}'s BMI ${mark.bmi}`,
   );
 }
-*/
 // The for loop
 
 // console.log("Lifting the weights repetition 1 🏋️‍♂️");
@@ -364,4 +363,48 @@ if (mark.bmi > john.bmi) {
 
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting the weights repetition ${rep} 🏋️‍♂️`);
+}
+*/
+const types = [];
+const jonas = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+for (let i = 0; i < jonas.length; i++) {
+  // Reading from jonas arrey
+  console.log(jonas[i], typeof jonas[i]);
+
+  // Filling types array
+  // types[i] = typeof jonas[i];
+  types.push(typeof jonas[i]);
+}
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+let calcYear = [];
+
+for (let i = 0; i < years.length; i++) {
+  calcYear.push(2037 - years[i]);
+}
+
+console.log(calcYear);
+
+// Continue and break
+console.log("--- ONLY STRINGS ---");
+
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] !== "string") continue;
+  console.log(jonas[i], typeof jonas[i]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] === "number") break;
+  console.log(jonas[i], typeof jonas[i]);
 }
