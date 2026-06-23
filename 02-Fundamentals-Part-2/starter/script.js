@@ -364,7 +364,6 @@ if (mark.bmi > john.bmi) {
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting the weights repetition ${rep} 🏋️‍♂️`);
 }
-*/
 const types = [];
 const jonas = [
   "Jonas",
@@ -378,7 +377,7 @@ const jonas = [
 for (let i = 0; i < jonas.length; i++) {
   // Reading from jonas arrey
   console.log(jonas[i], typeof jonas[i]);
-
+  
   // Filling types array
   // types[i] = typeof jonas[i];
   types.push(typeof jonas[i]);
@@ -407,4 +406,30 @@ console.log("--- BREAK WITH NUMBER ---");
 for (let i = 0; i < jonas.length; i++) {
   if (typeof jonas[i] === "number") break;
   console.log(jonas[i], typeof jonas[i]);
+}
+*/
+// Looping backwards and loops in loops
+
+// 0, 1, 2, 3, 4
+// 4, 3, 2, 1, 0
+
+const jonas = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+for (let i = jonas.length - 1; i >= 0; i--) {
+  console.log(i, jonas[i]);
+}
+
+for (let excersise = 1; excersise < 4; excersise++) {
+  console.log(`------Starting exsersise ${excersise}`);
+
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exsersise ${excersise}: Lifting weight repetition ${rep}`);
+  }
 }
